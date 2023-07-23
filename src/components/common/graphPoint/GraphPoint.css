@@ -1,0 +1,29 @@
+.graphPointContainer {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.point {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+}
+
+.graphText {
+    color: #9a9bb0;
+    font-weight: bold;
+    width: '90%'
+}
+
+@media (max-width: 1023px) {
+    .graphText {
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 768px) {
+    .graphText {
+        font-size: 10px;
+    }
+}

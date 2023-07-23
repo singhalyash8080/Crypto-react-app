@@ -1,0 +1,21 @@
+.buttonsContainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.buyButton,
+.sellButton {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.buyButton:hover,
+.sellButton:hover {
+    background-color: #bec4cb;
+    color: white;
+}

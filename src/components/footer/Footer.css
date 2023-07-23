@@ -1,0 +1,16 @@
+.footerContainer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: white;
+}
+
+.footerBox {
+    display: flex;
+    justify-content: space-around;
+    padding: 5px;
+}
+
+.footerIconContainer {
+    font-size: 30px;
+}

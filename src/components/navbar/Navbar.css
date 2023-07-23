@@ -1,0 +1,100 @@
+.navbarContainer {
+    display: flex;
+}
+
+.navbarBackButton {
+    font-size: 30px;
+    width: 20vw;
+    cursor: pointer;
+}
+
+.navbarHeading {
+    text-align: center;
+    color: #4c5968;
+    font-size: 30px;
+    font-weight: 500;
+    width: 60vw;
+}
+
+.navbarIconContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 20vw;
+}
+
+.navbarMenuButton {
+    font-size: 30px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.menuDropdownContainer {
+    position: absolute;
+    right: 10vw;
+    top: 8vh;
+    display: flex;
+    justify-content: end;
+}
+
+.menuDropdownBox {
+    width: 20vw;
+}
+
+.menuDropdown {
+    border: 1px #bec4cb solid;
+    width: 100%;
+    background-color: white;
+    border-radius: 8%;
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+
+.menuDropdownItem {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px #bec4cb solid;
+    width: 90%;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.menuDropdownItem:hover {
+    background-color: lightgrey;
+}
+
+.menuDropdownIcon {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-right: 10px;
+}
+
+@media (max-width: 1023px) {
+    .navbarHeading,
+    .navbarMenuButton,
+    .navbarBackButton {
+        font-size: 20px;
+    }
+    .menuDropdownItem {
+        font-size: 14px;
+    }
+    .menuDropdownContainer {
+        top: 6vh;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbarHeading,
+    .navbarMenuButton,
+    .navbarBackButton {
+        font-size: 16px;
+    }
+    .menuDropdownItem {
+        font-size: 10px;
+    }
+    .menuDropdownContainer {
+        top: 4vh;
+    }
+}

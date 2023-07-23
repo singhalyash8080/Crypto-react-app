@@ -1,0 +1,20 @@
+.currencyInfoContainer {
+    background-color: white;
+    border-radius: 30px;
+    padding: 10px;
+}
+
+.currencyInfoHeading {
+    display: flex;
+}
+
+.currencyInfoContent {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.currencyInfoContentDetail {
+    display: flex;
+    justify-content: space-between;
+}
