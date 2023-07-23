@@ -21,7 +21,7 @@ const CurrencyInfo: React.FC = () => {
                 style={{ color: "white" }}
               />
             }
-            backgroundColor="#FFAC30"
+            backgroundGradient="linear-gradient(0deg, #ff8f17 0%, #ffc743 100%)"
           />
         </div>
 

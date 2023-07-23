@@ -1,6 +1,6 @@
 .graphPointContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: start;
     width: 40%;
 }
 

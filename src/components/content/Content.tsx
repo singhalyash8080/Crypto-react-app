@@ -20,7 +20,6 @@ const Content: React.FC = () => {
   return (
     <div className="contentContainer">
       <div className="contentBox">
-        <br/> 
         <CurrencyInfo />
         <br />
         <Tabs graphData={graphData} setGraphData={setGraphData} />
@@ -28,9 +27,7 @@ const Content: React.FC = () => {
         <CurrencyGraph graphData={graphData} />
         <br />
         <Buttons />
-        <br />
-        <br />
-        <br />
+        <br/>
       </div>
     </div>
   );

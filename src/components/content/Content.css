@@ -1,8 +1,11 @@
 .contentContainer {
     background-color: #f3f6f9;
+    min-height: 90vh;
 }
 
 .contentBox {
     margin-left: 10%;
     margin-right: 10%;
+    padding-top: 10%;
+    padding-bottom: 10%;
 }

@@ -10,7 +10,9 @@
     height: 30px;
     border-radius: 51px;
     padding: 5px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .tab:hover {

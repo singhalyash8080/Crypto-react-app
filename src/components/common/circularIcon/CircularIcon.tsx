@@ -3,11 +3,11 @@ import "./CircularIcon.css";
 
 interface CircularIconProps {
   icon: JSX.Element; 
-  backgroundColor?: string
+  backgroundGradient?: string
 }
 
-const CircularIcon: React.FC<CircularIconProps> = ({ icon, backgroundColor }) => {
-  return <div className="circular-icon" style={{backgroundColor: backgroundColor}}>{icon}</div>;
+const CircularIcon: React.FC<CircularIconProps> = ({ icon, backgroundGradient }) => {
+  return <div className="circular-icon" style={{backgroundImage: backgroundGradient}}>{icon}</div>;
 };
 
 export default CircularIcon;

@@ -14,3 +14,7 @@
 .footerIconContainer {
     font-size: 30px;
 }
+
+.footerIconContainer:hover {
+    cursor: pointer;
+}

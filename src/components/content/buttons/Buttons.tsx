@@ -13,7 +13,7 @@ const Buttons: React.FC = () => {
             icon={
               <FontAwesomeIcon icon={faDollarSign} style={{ color: "white" }} />
             }
-            backgroundColor="#17c7fb"
+            backgroundGradient="linear-gradient(0deg, #1d71f1 0%, #17c7fb 100%)"
           />
           <p>Buy BTC</p>
         </div>
@@ -24,7 +24,7 @@ const Buttons: React.FC = () => {
             icon={
               <FontAwesomeIcon icon={faDollarSign} style={{ color: "white" }} />
             }
-            backgroundColor="#ff677c"
+            backgroundGradient="linear-gradient(0deg, #fa23a2 0%, #ff677c 100%)"
           />
           <p>Sell BTC</p>
         </div>
